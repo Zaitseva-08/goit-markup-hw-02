@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
     color: #434455;
+    font-weight: 400;
     
 }
 
@@ -36,10 +37,10 @@ color: #2e2f42;
 .section-address{
     
 }
-.main-page {
+.main-pages {
     background: #2e2f42;
 }
-.page-title {
+.main-page {
     font-weight: 700;
 text-align: center;
 font-size: 56px;
@@ -56,7 +57,15 @@ height: 56px;
 background: #4d5ae5;
 cursor: pointer;
 }
-
+.page-title {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
+}
 .page-title-text {
     font-weight: 500;
 font-size: 20px;
@@ -65,9 +74,30 @@ letter-spacing: 2px;
 color: #2e2f42;
 }
 .text-list {
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 2px;
 color: #434455;
 }
+.page-of-team {
+    background: #f4f4fd;
+}
+.page-title-team {
+background: #fff;
+}
+ .name {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+ }
+ .name-text {
+
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2px;
+text-align: center;
+color: #434455;
+ }
