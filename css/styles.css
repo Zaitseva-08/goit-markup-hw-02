@@ -7,7 +7,8 @@ body {
   line-height: 1.5em;
 }
 
-ul, ol {
+ul,
+ol {
   list-style-type: none;
 }
 .accent {
@@ -19,7 +20,7 @@ ul, ol {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color:#4d5ae5;
+  color: #4d5ae5;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -36,14 +37,15 @@ ul, ol {
 .head-nav__link:focus {
   color: #404bbf;
 }
-
+.contact-block {
+  font-style: normal;
+}
 .head-info__link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  font-style: normal;
 }
 .head-info__link:hover,
 .head-info__link:focus {
@@ -62,7 +64,7 @@ ul, ol {
   color: #fff;
 }
 .main-page-btn {
-    font-family: inherit;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -128,8 +130,11 @@ ul, ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
   text-decoration: none;
+}
+.footer-accent {
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
